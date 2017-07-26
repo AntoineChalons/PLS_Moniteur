@@ -1,0 +1,23 @@
+Tcho Antoine,
+
+Voici la liste des connecteurs qu'on va avoir.
+
+Digital Output
+
+P05 : Electrovanne Coup de bélier
+
+P02 Electrovanne eau froide
+
+P03 Electrovanne eau chaude
+
+Sinon on a 5 AI il faudrait pouvoir afficher la grandeur physique en faisant une transformation affine.
+
+On a un AO branché sur le AO0 qui doit délivrer du 0-5V.
+
+Et les débit-mètres en PFI que je vais essayer de câbler d'une manière ou d'une autre. Je crois que le principal problème vient du fait qu'on est en 24V et j'ai peur de griller les entrées comme ça.
+
+Merci beaucoup pour le coup de main et à bientôt.
+
+Bonne soirée.
+
+Pilou

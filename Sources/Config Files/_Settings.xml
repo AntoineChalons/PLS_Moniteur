@@ -1,0 +1,358 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>14.0.1f3</Version>
+<Cluster>
+<Name>Settings in</Name>
+<NumElts>4</NumElts>
+<Cluster>
+<Name>Acquisition Settings</Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name>AI</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>task name</Name>
+<Val>AI</Val>
+</String>
+<Refnum>
+<Name>task_ref</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>NIDAQ</RefType>
+<Val></Val>
+</Refnum>
+<DAQChannel>
+<Name>physical channels</Name>
+<Val>Dev1/ai3:0, Dev1/ai4</Val>
+</DAQChannel>
+<Cluster>
+<Name>channels config</Name>
+<NumElts>3</NumElts>
+<I32>
+<Name>input terminal configuration</Name>
+<Val>10083</Val>
+</I32>
+<DBL>
+<Name>minimum value</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>maximum value</Name>
+<Val>10.00000000000000</Val>
+</DBL>
+</Cluster>
+<DBL>
+<Name>rate</Name>
+<Val>10000.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>conversions</Name>
+<NumElts>5</NumElts>
+<Cluster>
+<Name>ai0</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>a</Name>
+<Val>2.69000000000000</Val>
+</DBL>
+<DBL>
+<Name>b</Name>
+<Val>-2.50000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>ai1</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>a</Name>
+<Val>2.69000000000000</Val>
+</DBL>
+<DBL>
+<Name>b</Name>
+<Val>-2.50000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>ai2</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>a</Name>
+<Val>2.69000000000000</Val>
+</DBL>
+<DBL>
+<Name>b</Name>
+<Val>-2.50000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>ai3</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>a</Name>
+<Val>6.72500000000000</Val>
+</DBL>
+<DBL>
+<Name>b</Name>
+<Val>-6.25000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>ai4</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>a</Name>
+<Val>15.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>b</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>compteur 0</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>task name</Name>
+<Val>CTR</Val>
+</String>
+<Refnum>
+<Name>task_ref</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>NIDAQ</RefType>
+<Val></Val>
+</Refnum>
+<DAQChannel>
+<Name>ctr</Name>
+<Val>Dev1/ctr0</Val>
+</DAQChannel>
+<DBL>
+<Name>coeff</Name>
+<Val>2.72400000000000E-2</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>compteur 1</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>task name</Name>
+<Val>CTR1</Val>
+</String>
+<Refnum>
+<Name>task_ref</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>NIDAQ</RefType>
+<Val></Val>
+</Refnum>
+<DAQChannel>
+<Name>ctr</Name>
+<Val>Dev1/ctr1</Val>
+</DAQChannel>
+<DBL>
+<Name>coeff</Name>
+<Val>2.72400000000000E-2</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>compteur 2</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>task name</Name>
+<Val>CTR2</Val>
+</String>
+<Refnum>
+<Name>task_ref</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>NIDAQ</RefType>
+<Val></Val>
+</Refnum>
+<DAQChannel>
+<Name>ctr</Name>
+<Val>Dev1/ctr2</Val>
+</DAQChannel>
+<DBL>
+<Name>coeff</Name>
+<Val>2.72400000000000E-2</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>compteur 3</Name>
+<NumElts>4</NumElts>
+<String>
+<Name>task name</Name>
+<Val>CTR3</Val>
+</String>
+<Refnum>
+<Name>task_ref</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>NIDAQ</RefType>
+<Val></Val>
+</Refnum>
+<DAQChannel>
+<Name>ctr</Name>
+<Val>Dev1/ctr3</Val>
+</DAQChannel>
+<DBL>
+<Name>coeff</Name>
+<Val>2.72400000000000E-2</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Logging Configuration</Name>
+<NumElts>5</NumElts>
+<Path>
+<Name>Log File Base Path</Name>
+<Val>C:\Users\Public\Documents</Val>
+</Path>
+<Cluster>
+<Name>L1</Name>
+<NumElts>3</NumElts>
+<Refnum>
+<Name>ref</Name>
+<RefKind>Byte Stream File</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+<Boolean>
+<Name>actif?</Name>
+<Val>0</Val>
+</Boolean>
+<DBL>
+<Name>Fsave</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>L2</Name>
+<NumElts>3</NumElts>
+<Refnum>
+<Name>ref</Name>
+<RefKind>Byte Stream File</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+<Boolean>
+<Name>actif?</Name>
+<Val>0</Val>
+</Boolean>
+<DBL>
+<Name>Fsave</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>L3</Name>
+<NumElts>3</NumElts>
+<Refnum>
+<Name>ref</Name>
+<RefKind>Byte Stream File</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+<Boolean>
+<Name>actif?</Name>
+<Val>0</Val>
+</Boolean>
+<DBL>
+<Name>Fsave</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>L4</Name>
+<NumElts>3</NumElts>
+<Refnum>
+<Name>ref</Name>
+<RefKind>Byte Stream File</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+<Boolean>
+<Name>actif?</Name>
+<Val>0</Val>
+</Boolean>
+<DBL>
+<Name>Fsave</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Generation Settings</Name>
+<NumElts>4</NumElts>
+<Cluster>
+<Name>AO</Name>
+<NumElts>3</NumElts>
+<String>
+<Name>task name</Name>
+<Val>AO</Val>
+</String>
+<Refnum>
+<Name>task_ref</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>NIDAQ</RefType>
+<Val></Val>
+</Refnum>
+<DAQChannel>
+<Name>physical channels</Name>
+<Val>Dev1/ao0</Val>
+</DAQChannel>
+</Cluster>
+<Cluster>
+<Name>PID</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>P</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>I</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>D</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>conversions</Name>
+<NumElts>1</NumElts>
+<Cluster>
+<Name>ao0</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>a</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>b</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<DBL>
+<Name>setpoint</Name>
+<Val>20.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Digital Control Configuration</Name>
+<NumElts>1</NumElts>
+<Cluster>
+<Name>DO</Name>
+<NumElts>3</NumElts>
+<String>
+<Name>task name</Name>
+<Val>DO</Val>
+</String>
+<Refnum>
+<Name>task_ref</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>NIDAQ</RefType>
+<Val></Val>
+</Refnum>
+<DAQChannel>
+<Name>lines</Name>
+<Val>Dev1/port0/line2:3, Dev1/port0/line5</Val>
+</DAQChannel>
+</Cluster>
+</Cluster>
+</Cluster>
+</LVData>
