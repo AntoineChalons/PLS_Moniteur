@@ -24,4 +24,7 @@
 	<Item Name="GLB_AIs.vi" Type="VI" URL="../GLB_AIs.vi"/>
 	<Item Name="scale and decimate.vi" Type="VI" URL="../scale and decimate.vi"/>
 	<Item Name="GLB_Fsave.vi" Type="VI" URL="../GLB_Fsave.vi"/>
+	<Item Name="Reset Counter.vi" Type="VI" URL="../Reset Counter.vi"/>
+	<Item Name="Pause Counter.vi" Type="VI" URL="../Pause Counter.vi"/>
+	<Item Name="Start Counter.vi" Type="VI" URL="../Start Counter.vi"/>
 </Library>
