@@ -396,7 +396,7 @@
 				<Property Name="Destination[2].path" Type="Path">../Builds/EXE</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/files/pls_200.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5B19AAD1-F07D-4790-BE6D-F8E6F19F008F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3F9BD454-B75B-481B-93F5-A1F1464C4BFF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/PLS Main.vi</Property>
@@ -494,7 +494,7 @@
 				<Property Name="RegDestCount" Type="Int">1</Property>
 				<Property Name="Source[0].dest" Type="Str">{15F8AA28-9D24-4C63-843D-811E06AA69C7}</Property>
 				<Property Name="Source[0].File[0].dest" Type="Str">{15F8AA28-9D24-4C63-843D-811E06AA69C7}</Property>
-				<Property Name="Source[0].File[0].name" Type="Str">pls.exe</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">PLS Moniteur.exe</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">1</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">pls</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str"></Property>
