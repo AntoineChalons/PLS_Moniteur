@@ -56,6 +56,8 @@
 		<Item Name="PLS Logging.lvlib" Type="Library" URL="../Logging/PLS Logging.lvlib"/>
 		<Item Name="PLS Settings.lvlib" Type="Library" URL="../Settings/PLS Settings.lvlib"/>
 		<Item Name="PLS Main.vi" Type="VI" URL="../PLS Main.vi"/>
+		<Item Name="type de test.ctl" Type="VI" URL="../Digital Control/type de test.ctl"/>
+		<Item Name="start info.ctl" Type="VI" URL="../Digital Control/start info.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
@@ -365,7 +367,6 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="start info.ctl" Type="VI" URL="../support/start info.ctl"/>
 			<Item Name="set UI state when start line.vi" Type="VI" URL="../support/set UI state when start line.vi"/>
 			<Item Name="unbuild waveform array_4.vi" Type="VI" URL="../Settings/unbuild waveform array_4.vi"/>
 			<Item Name="unbuild waveform array_5.vi" Type="VI" URL="../Settings/unbuild waveform array_5.vi"/>

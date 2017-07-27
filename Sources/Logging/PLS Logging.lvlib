@@ -21,4 +21,5 @@
 	<Item Name="reshape debit.vi" Type="VI" URL="../reshape debit.vi"/>
 	<Item Name="data format.vi" Type="VI" URL="../data format.vi"/>
 	<Item Name="data format_ligne 4.vi" Type="VI" URL="../data format_ligne 4.vi"/>
+	<Item Name="start info.ctl" Type="VI" URL="../start info.ctl"/>
 </Library>
