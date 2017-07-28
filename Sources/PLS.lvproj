@@ -37,6 +37,7 @@
 			<Item Name="PLS Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/PLS Error Handler - Message Handling Loop.vi"/>
 			<Item Name="AppKind.vi" Type="VI" URL="../support/AppKind.vi"/>
 			<Item Name="GLB_PAmonts.vi" Type="VI" URL="../support/GLB_PAmonts.vi"/>
+			<Item Name="Post-Build Action.vi" Type="VI" URL="../support/Post-Build Action.vi"/>
 		</Item>
 		<Item Name="Type Definitions" Type="Folder">
 			<Item Name="PLS Acquired Data.ctl" Type="VI" URL="../controls/PLS Acquired Data.ctl"/>
@@ -342,6 +343,7 @@
 				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
 				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="Get File System Separator.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysinfo.llb/Get File System Separator.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="FixedFileInfo_Struct__qmt_windows.ctl" Type="VI" URL="/&lt;userlib&gt;/_QMT.lib/QMT_windows.llb/FixedFileInfo_Struct__qmt_windows.ctl"/>
@@ -354,6 +356,16 @@
 				<Item Name="TDC_VersionInfo__qmt_windows.ctl" Type="VI" URL="/&lt;userlib&gt;/_QMT.lib/QMT_windows.llb/TDC_VersionInfo__qmt_windows.ctl"/>
 				<Item Name="Get EXE File Version__qmt_windows.vi" Type="VI" URL="/&lt;userlib&gt;/_QMT.lib/QMT_windows.llb/Get EXE File Version__qmt_windows.vi"/>
 				<Item Name="Set CTRL Enable__qmt_ihm.vi" Type="VI" URL="/&lt;userlib&gt;/_QMT.lib/QMT_ihm.llb/Set CTRL Enable__qmt_ihm.vi"/>
+				<Item Name="Strip Path Extension__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension__ogtk.vi"/>
+				<Item Name="Strip Path Extension - Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - Path__ogtk.vi"/>
+				<Item Name="Strip Path Extension - String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - String__ogtk.vi"/>
+				<Item Name="Strip Path Extension - 1D Array of Paths__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - 1D Array of Paths__ogtk.vi"/>
+				<Item Name="Strip Path Extension - 1D Array of Strings__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path Extension - 1D Array of Strings__ogtk.vi"/>
+				<Item Name="Convert File Extension__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Convert File Extension__ogtk.vi"/>
+				<Item Name="Convert File Extension (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Convert File Extension (Path)__ogtk.vi"/>
+				<Item Name="Convert File Extension (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Convert File Extension (String)__ogtk.vi"/>
+				<Item Name="Copy with Options__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Copy with Options__ogtk.vi"/>
+				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
@@ -384,6 +396,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../Builds/EXE</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Support VIs/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B1B2A711-D696-4C82-A956-2E5555B6D5C4}</Property>
 				<Property Name="Bld_version.build" Type="Int">20</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
@@ -397,7 +410,7 @@
 				<Property Name="Destination[2].path" Type="Path">../Builds/EXE</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/files/pls_200.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3F9BD454-B75B-481B-93F5-A1F1464C4BFF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D573E8CC-59BC-46BD-9833-A616DC80B8F7}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/PLS Main.vi</Property>
