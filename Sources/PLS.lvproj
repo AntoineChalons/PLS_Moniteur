@@ -410,7 +410,7 @@
 				<Property Name="Destination[2].path" Type="Path">../Builds/EXE</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/files/pls_200.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D573E8CC-59BC-46BD-9833-A616DC80B8F7}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A2C5A8E8-7FAD-4B76-AC42-A5A05524E386}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/PLS Main.vi</Property>
